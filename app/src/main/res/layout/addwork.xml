@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/addwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="ADD WORK"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageview"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_add_a_photo_black_24dp" />
+
+    <EditText
+        android:id="@+id/edittypework"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="type of work"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/editskill"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="skill" />
+
+    <EditText
+        android:id="@+id/editpayment"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="payment" />
+
+        <EditText
+            android:id="@+id/contactperson"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:inputType="phone"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:hint="contact person" />
+
+    <EditText
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="text|textMultiLine"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:hint="deskripsi" />
+
+        <Button
+            android:id="@+id/saverecord"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/edittypework"
+            android:text="Save Record" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/listwork"
+            android:layout_alignEnd="@+id/edittypework"
+            android:text="Update"
+            android:layout_margin="10dp"/>
+
+    <Button
+            android:id="@+id/listwork"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/saverecord"
+            android:layout_alignEnd="@+id/edittypework"
+            android:text="List work"
+            android:layout_margin="10dp"/>
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

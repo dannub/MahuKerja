@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "5661679946",
+    "firebase_url": "https://fir-freelance.firebaseio.com",
+    "project_id": "fir-freelance",
+    "storage_bucket": "fir-freelance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5661679946:android:50494dcaa978b3ca",
+        "android_client_info": {
+          "package_name": "com.example.nurulmadihah.mahukerja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5661679946-u0ucfqeoopacomdff0m4g6s3lgl7frtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzbjKVQb-Cr1sx4wnh41jfxgWwFX8DQjw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
